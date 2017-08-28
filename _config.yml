@@ -9,18 +9,18 @@
 locale                   : "en"
 title                    : "Site Title"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+name                     : "Chris Wood"
+description              : "iOS Developer"
+url                      : "http://www.christopherhwood.com"
+baseurl                  : "/blog"
+repository               : "christopherhwood/christopherhwood.github.io"
+teaser                   : "/assets/images/teaser.png"
+# breadcrumbs            : false
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "disqus"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "christopherhwood"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -77,10 +77,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Chris Wood"
+  avatar           : "/assets/images/teaser.jpg"
+  bio              : "iOS Developer at DayDayCook (日日煮)"
+  location         : "Shanghai"
   email            :
   uri              :
   bitbucket        :
@@ -89,19 +89,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "https://github.com/christopherhwood"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/christopherhwood/"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : "4386994/chris-wood"
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "https://twitter.com/C_H_Wood"
   vine             :
   weibo            :
   xing             :

@@ -6,12 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+theme                    : minimal-mistakes-jekyll
+skin                     : "contrast"
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Chris Wood"
 title_separator          : "-"
 name                     : "Chris Wood"
-description              : "iOS Developer"
-url                      : "http://www.christopherhwood.com"
+description              : "iOS Developer developer at DayDayCook (日日煮), technologist, researcher of human computer interaction, fan of good design, lover of good code."
+url                      : "https://www.christopherhwood.com"
 baseurl                  : "/blog"
 repository               : "christopherhwood/christopherhwood.github.io"
 teaser                   : "/assets/images/teaser.png"
@@ -55,34 +57,34 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "c_h_wood"
 facebook:
-  username               :
+  username               : 
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "./assets/images/teaser.jpeg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Christopher Wood"
+  links: ["https://twitter.com/C_H_Wood", "https://www.linkedin.com/in/christopherhwood/", "https://www.instagram.com/c_h_wood/", "https://www.facebook.com/chris.wood.37604303"] # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-61045752-1" 
 
 
 # Site Author
 author:
   name             : "Chris Wood"
-  avatar           : "/assets/images/teaser.jpg"
-  bio              : "iOS Developer at DayDayCook (日日煮)"
+  avatar           : "./assets/images/bio-pic.png"
+  bio              : "iOS Dev at DayDayCook 日日煮"
   location         : "Shanghai"
-  email            :
-  uri              :
+  email            : "christopherhwood@gmail.com"
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
@@ -173,7 +175,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -242,6 +244,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true

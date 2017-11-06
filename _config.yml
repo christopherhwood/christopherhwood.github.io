@@ -16,7 +16,7 @@ description              : "iOS Developer developer at DayDayCook (日日煮), t
 url                      : "https://www.christopherhwood.com"
 baseurl                  :
 repository               : "christopherhwood/christopherhwood.github.io"
-teaser                   : "/assets/images/teaser.png"
+teaser                   : "./assets/images/teaser.png"
 # breadcrumbs            : false
 words_per_minute         : 200
 comments:
@@ -62,7 +62,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "./assets/images/teaser.jpeg"
+og_image                 : "./assets/images/teaser.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

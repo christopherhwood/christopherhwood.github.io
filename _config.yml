@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : "Chris Wood"
 description              : "iOS Developer developer at DayDayCook (日日煮), technologist, researcher of human computer interaction, fan of good design, lover of good code."
 url                      : "https://www.christopherhwood.com"
-baseurl                  : "/blog"
+baseurl                  :
 repository               : "christopherhwood/christopherhwood.github.io"
 teaser                   : "/assets/images/teaser.png"
 # breadcrumbs            : false
@@ -59,7 +59,7 @@ yandex_site_verification :
 twitter:
   username               : "c_h_wood"
 facebook:
-  username               : 
+  username               :
   app_id                 :
   publisher              :
 og_image                 : "./assets/images/teaser.jpeg"
@@ -74,7 +74,7 @@ social:
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-61045752-1" 
+    tracking_id          : "UA-61045752-1"
 
 
 # Site Author
@@ -84,7 +84,7 @@ author:
   bio              : "iOS Dev at DayDayCook 日日煮"
   location         : "Shanghai"
   email            : "christopherhwood@gmail.com"
-  uri              : 
+  uri              :
   bitbucket        :
   codepen          :
   dribbble         :
@@ -247,3 +247,9 @@ defaults:
       comments: true
       share: true
       related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      share: true

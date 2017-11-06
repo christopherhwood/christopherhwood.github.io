@@ -1,0 +1,789 @@
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+
+.#{$cw-css-prefix}-glass:before { content: $cw-var-glass; }
+.#{$cw-css-prefix}-music:before { content: $cw-var-music; }
+.#{$cw-css-prefix}-search:before { content: $cw-var-search; }
+.#{$cw-css-prefix}-envelope-o:before { content: $cw-var-envelope-o; }
+.#{$cw-css-prefix}-heart:before { content: $cw-var-heart; }
+.#{$cw-css-prefix}-star:before { content: $cw-var-star; }
+.#{$cw-css-prefix}-star-o:before { content: $cw-var-star-o; }
+.#{$cw-css-prefix}-user:before { content: $cw-var-user; }
+.#{$cw-css-prefix}-film:before { content: $cw-var-film; }
+.#{$cw-css-prefix}-th-large:before { content: $cw-var-th-large; }
+.#{$cw-css-prefix}-th:before { content: $cw-var-th; }
+.#{$cw-css-prefix}-th-list:before { content: $cw-var-th-list; }
+.#{$cw-css-prefix}-check:before { content: $cw-var-check; }
+.#{$cw-css-prefix}-remove:before,
+.#{$cw-css-prefix}-close:before,
+.#{$cw-css-prefix}-times:before { content: $cw-var-times; }
+.#{$cw-css-prefix}-search-plus:before { content: $cw-var-search-plus; }
+.#{$cw-css-prefix}-search-minus:before { content: $cw-var-search-minus; }
+.#{$cw-css-prefix}-power-off:before { content: $cw-var-power-off; }
+.#{$cw-css-prefix}-signal:before { content: $cw-var-signal; }
+.#{$cw-css-prefix}-gear:before,
+.#{$cw-css-prefix}-cog:before { content: $cw-var-cog; }
+.#{$cw-css-prefix}-trash-o:before { content: $cw-var-trash-o; }
+.#{$cw-css-prefix}-home:before { content: $cw-var-home; }
+.#{$cw-css-prefix}-file-o:before { content: $cw-var-file-o; }
+.#{$cw-css-prefix}-clock-o:before { content: $cw-var-clock-o; }
+.#{$cw-css-prefix}-road:before { content: $cw-var-road; }
+.#{$cw-css-prefix}-download:before { content: $cw-var-download; }
+.#{$cw-css-prefix}-arrow-circle-o-down:before { content: $cw-var-arrow-circle-o-down; }
+.#{$cw-css-prefix}-arrow-circle-o-up:before { content: $cw-var-arrow-circle-o-up; }
+.#{$cw-css-prefix}-inbox:before { content: $cw-var-inbox; }
+.#{$cw-css-prefix}-play-circle-o:before { content: $cw-var-play-circle-o; }
+.#{$cw-css-prefix}-rotate-right:before,
+.#{$cw-css-prefix}-repeat:before { content: $cw-var-repeat; }
+.#{$cw-css-prefix}-refresh:before { content: $cw-var-refresh; }
+.#{$cw-css-prefix}-list-alt:before { content: $cw-var-list-alt; }
+.#{$cw-css-prefix}-lock:before { content: $cw-var-lock; }
+.#{$cw-css-prefix}-flag:before { content: $cw-var-flag; }
+.#{$cw-css-prefix}-headphones:before { content: $cw-var-headphones; }
+.#{$cw-css-prefix}-volume-off:before { content: $cw-var-volume-off; }
+.#{$cw-css-prefix}-volume-down:before { content: $cw-var-volume-down; }
+.#{$cw-css-prefix}-volume-up:before { content: $cw-var-volume-up; }
+.#{$cw-css-prefix}-qrcode:before { content: $cw-var-qrcode; }
+.#{$cw-css-prefix}-barcode:before { content: $cw-var-barcode; }
+.#{$cw-css-prefix}-tag:before { content: $cw-var-tag; }
+.#{$cw-css-prefix}-tags:before { content: $cw-var-tags; }
+.#{$cw-css-prefix}-book:before { content: $cw-var-book; }
+.#{$cw-css-prefix}-bookmark:before { content: $cw-var-bookmark; }
+.#{$cw-css-prefix}-print:before { content: $cw-var-print; }
+.#{$cw-css-prefix}-camera:before { content: $cw-var-camera; }
+.#{$cw-css-prefix}-font:before { content: $cw-var-font; }
+.#{$cw-css-prefix}-bold:before { content: $cw-var-bold; }
+.#{$cw-css-prefix}-italic:before { content: $cw-var-italic; }
+.#{$cw-css-prefix}-text-height:before { content: $cw-var-text-height; }
+.#{$cw-css-prefix}-text-width:before { content: $cw-var-text-width; }
+.#{$cw-css-prefix}-align-left:before { content: $cw-var-align-left; }
+.#{$cw-css-prefix}-align-center:before { content: $cw-var-align-center; }
+.#{$cw-css-prefix}-align-right:before { content: $cw-var-align-right; }
+.#{$cw-css-prefix}-align-justify:before { content: $cw-var-align-justify; }
+.#{$cw-css-prefix}-list:before { content: $cw-var-list; }
+.#{$cw-css-prefix}-dedent:before,
+.#{$cw-css-prefix}-outdent:before { content: $cw-var-outdent; }
+.#{$cw-css-prefix}-indent:before { content: $cw-var-indent; }
+.#{$cw-css-prefix}-video-camera:before { content: $cw-var-video-camera; }
+.#{$cw-css-prefix}-photo:before,
+.#{$cw-css-prefix}-image:before,
+.#{$cw-css-prefix}-picture-o:before { content: $cw-var-picture-o; }
+.#{$cw-css-prefix}-pencil:before { content: $cw-var-pencil; }
+.#{$cw-css-prefix}-map-marker:before { content: $cw-var-map-marker; }
+.#{$cw-css-prefix}-adjust:before { content: $cw-var-adjust; }
+.#{$cw-css-prefix}-tint:before { content: $cw-var-tint; }
+.#{$cw-css-prefix}-edit:before,
+.#{$cw-css-prefix}-pencil-square-o:before { content: $cw-var-pencil-square-o; }
+.#{$cw-css-prefix}-share-square-o:before { content: $cw-var-share-square-o; }
+.#{$cw-css-prefix}-check-square-o:before { content: $cw-var-check-square-o; }
+.#{$cw-css-prefix}-arrows:before { content: $cw-var-arrows; }
+.#{$cw-css-prefix}-step-backward:before { content: $cw-var-step-backward; }
+.#{$cw-css-prefix}-fast-backward:before { content: $cw-var-fast-backward; }
+.#{$cw-css-prefix}-backward:before { content: $cw-var-backward; }
+.#{$cw-css-prefix}-play:before { content: $cw-var-play; }
+.#{$cw-css-prefix}-pause:before { content: $cw-var-pause; }
+.#{$cw-css-prefix}-stop:before { content: $cw-var-stop; }
+.#{$cw-css-prefix}-forward:before { content: $cw-var-forward; }
+.#{$cw-css-prefix}-fast-forward:before { content: $cw-var-fast-forward; }
+.#{$cw-css-prefix}-step-forward:before { content: $cw-var-step-forward; }
+.#{$cw-css-prefix}-eject:before { content: $cw-var-eject; }
+.#{$cw-css-prefix}-chevron-left:before { content: $cw-var-chevron-left; }
+.#{$cw-css-prefix}-chevron-right:before { content: $cw-var-chevron-right; }
+.#{$cw-css-prefix}-plus-circle:before { content: $cw-var-plus-circle; }
+.#{$cw-css-prefix}-minus-circle:before { content: $cw-var-minus-circle; }
+.#{$cw-css-prefix}-times-circle:before { content: $cw-var-times-circle; }
+.#{$cw-css-prefix}-check-circle:before { content: $cw-var-check-circle; }
+.#{$cw-css-prefix}-question-circle:before { content: $cw-var-question-circle; }
+.#{$cw-css-prefix}-info-circle:before { content: $cw-var-info-circle; }
+.#{$cw-css-prefix}-crosshairs:before { content: $cw-var-crosshairs; }
+.#{$cw-css-prefix}-times-circle-o:before { content: $cw-var-times-circle-o; }
+.#{$cw-css-prefix}-check-circle-o:before { content: $cw-var-check-circle-o; }
+.#{$cw-css-prefix}-ban:before { content: $cw-var-ban; }
+.#{$cw-css-prefix}-arrow-left:before { content: $cw-var-arrow-left; }
+.#{$cw-css-prefix}-arrow-right:before { content: $cw-var-arrow-right; }
+.#{$cw-css-prefix}-arrow-up:before { content: $cw-var-arrow-up; }
+.#{$cw-css-prefix}-arrow-down:before { content: $cw-var-arrow-down; }
+.#{$cw-css-prefix}-mail-forward:before,
+.#{$cw-css-prefix}-share:before { content: $cw-var-share; }
+.#{$cw-css-prefix}-expand:before { content: $cw-var-expand; }
+.#{$cw-css-prefix}-compress:before { content: $cw-var-compress; }
+.#{$cw-css-prefix}-plus:before { content: $cw-var-plus; }
+.#{$cw-css-prefix}-minus:before { content: $cw-var-minus; }
+.#{$cw-css-prefix}-asterisk:before { content: $cw-var-asterisk; }
+.#{$cw-css-prefix}-exclamation-circle:before { content: $cw-var-exclamation-circle; }
+.#{$cw-css-prefix}-gift:before { content: $cw-var-gift; }
+.#{$cw-css-prefix}-leaf:before { content: $cw-var-leaf; }
+.#{$cw-css-prefix}-fire:before { content: $cw-var-fire; }
+.#{$cw-css-prefix}-eye:before { content: $cw-var-eye; }
+.#{$cw-css-prefix}-eye-slash:before { content: $cw-var-eye-slash; }
+.#{$cw-css-prefix}-warning:before,
+.#{$cw-css-prefix}-exclamation-triangle:before { content: $cw-var-exclamation-triangle; }
+.#{$cw-css-prefix}-plane:before { content: $cw-var-plane; }
+.#{$cw-css-prefix}-calendar:before { content: $cw-var-calendar; }
+.#{$cw-css-prefix}-random:before { content: $cw-var-random; }
+.#{$cw-css-prefix}-comment:before { content: $cw-var-comment; }
+.#{$cw-css-prefix}-magnet:before { content: $cw-var-magnet; }
+.#{$cw-css-prefix}-chevron-up:before { content: $cw-var-chevron-up; }
+.#{$cw-css-prefix}-chevron-down:before { content: $cw-var-chevron-down; }
+.#{$cw-css-prefix}-retweet:before { content: $cw-var-retweet; }
+.#{$cw-css-prefix}-shopping-cart:before { content: $cw-var-shopping-cart; }
+.#{$cw-css-prefix}-folder:before { content: $cw-var-folder; }
+.#{$cw-css-prefix}-folder-open:before { content: $cw-var-folder-open; }
+.#{$cw-css-prefix}-arrows-v:before { content: $cw-var-arrows-v; }
+.#{$cw-css-prefix}-arrows-h:before { content: $cw-var-arrows-h; }
+.#{$cw-css-prefix}-bar-chart-o:before,
+.#{$cw-css-prefix}-bar-chart:before { content: $cw-var-bar-chart; }
+.#{$cw-css-prefix}-twitter-square:before { content: $cw-var-twitter-square; }
+.#{$cw-css-prefix}-facebook-square:before { content: $cw-var-facebook-square; }
+.#{$cw-css-prefix}-camera-retro:before { content: $cw-var-camera-retro; }
+.#{$cw-css-prefix}-key:before { content: $cw-var-key; }
+.#{$cw-css-prefix}-gears:before,
+.#{$cw-css-prefix}-cogs:before { content: $cw-var-cogs; }
+.#{$cw-css-prefix}-comments:before { content: $cw-var-comments; }
+.#{$cw-css-prefix}-thumbs-o-up:before { content: $cw-var-thumbs-o-up; }
+.#{$cw-css-prefix}-thumbs-o-down:before { content: $cw-var-thumbs-o-down; }
+.#{$cw-css-prefix}-star-half:before { content: $cw-var-star-half; }
+.#{$cw-css-prefix}-heart-o:before { content: $cw-var-heart-o; }
+.#{$cw-css-prefix}-sign-out:before { content: $cw-var-sign-out; }
+.#{$cw-css-prefix}-linkedin-square:before { content: $cw-var-linkedin-square; }
+.#{$cw-css-prefix}-thumb-tack:before { content: $cw-var-thumb-tack; }
+.#{$cw-css-prefix}-external-link:before { content: $cw-var-external-link; }
+.#{$cw-css-prefix}-sign-in:before { content: $cw-var-sign-in; }
+.#{$cw-css-prefix}-trophy:before { content: $cw-var-trophy; }
+.#{$cw-css-prefix}-github-square:before { content: $cw-var-github-square; }
+.#{$cw-css-prefix}-upload:before { content: $cw-var-upload; }
+.#{$cw-css-prefix}-lemon-o:before { content: $cw-var-lemon-o; }
+.#{$cw-css-prefix}-phone:before { content: $cw-var-phone; }
+.#{$cw-css-prefix}-square-o:before { content: $cw-var-square-o; }
+.#{$cw-css-prefix}-bookmark-o:before { content: $cw-var-bookmark-o; }
+.#{$cw-css-prefix}-phone-square:before { content: $cw-var-phone-square; }
+.#{$cw-css-prefix}-twitter:before { content: $cw-var-twitter; }
+.#{$cw-css-prefix}-facebook-f:before,
+.#{$cw-css-prefix}-facebook:before { content: $cw-var-facebook; }
+.#{$cw-css-prefix}-github:before { content: $cw-var-github; }
+.#{$cw-css-prefix}-unlock:before { content: $cw-var-unlock; }
+.#{$cw-css-prefix}-credit-card:before { content: $cw-var-credit-card; }
+.#{$cw-css-prefix}-feed:before,
+.#{$cw-css-prefix}-rss:before { content: $cw-var-rss; }
+.#{$cw-css-prefix}-hdd-o:before { content: $cw-var-hdd-o; }
+.#{$cw-css-prefix}-bullhorn:before { content: $cw-var-bullhorn; }
+.#{$cw-css-prefix}-bell:before { content: $cw-var-bell; }
+.#{$cw-css-prefix}-certificate:before { content: $cw-var-certificate; }
+.#{$cw-css-prefix}-hand-o-right:before { content: $cw-var-hand-o-right; }
+.#{$cw-css-prefix}-hand-o-left:before { content: $cw-var-hand-o-left; }
+.#{$cw-css-prefix}-hand-o-up:before { content: $cw-var-hand-o-up; }
+.#{$cw-css-prefix}-hand-o-down:before { content: $cw-var-hand-o-down; }
+.#{$cw-css-prefix}-arrow-circle-left:before { content: $cw-var-arrow-circle-left; }
+.#{$cw-css-prefix}-arrow-circle-right:before { content: $cw-var-arrow-circle-right; }
+.#{$cw-css-prefix}-arrow-circle-up:before { content: $cw-var-arrow-circle-up; }
+.#{$cw-css-prefix}-arrow-circle-down:before { content: $cw-var-arrow-circle-down; }
+.#{$cw-css-prefix}-globe:before { content: $cw-var-globe; }
+.#{$cw-css-prefix}-wrench:before { content: $cw-var-wrench; }
+.#{$cw-css-prefix}-tasks:before { content: $cw-var-tasks; }
+.#{$cw-css-prefix}-filter:before { content: $cw-var-filter; }
+.#{$cw-css-prefix}-briefcase:before { content: $cw-var-briefcase; }
+.#{$cw-css-prefix}-arrows-alt:before { content: $cw-var-arrows-alt; }
+.#{$cw-css-prefix}-group:before,
+.#{$cw-css-prefix}-users:before { content: $cw-var-users; }
+.#{$cw-css-prefix}-chain:before,
+.#{$cw-css-prefix}-link:before { content: $cw-var-link; }
+.#{$cw-css-prefix}-cloud:before { content: $cw-var-cloud; }
+.#{$cw-css-prefix}-flask:before { content: $cw-var-flask; }
+.#{$cw-css-prefix}-cut:before,
+.#{$cw-css-prefix}-scissors:before { content: $cw-var-scissors; }
+.#{$cw-css-prefix}-copy:before,
+.#{$cw-css-prefix}-files-o:before { content: $cw-var-files-o; }
+.#{$cw-css-prefix}-paperclip:before { content: $cw-var-paperclip; }
+.#{$cw-css-prefix}-save:before,
+.#{$cw-css-prefix}-floppy-o:before { content: $cw-var-floppy-o; }
+.#{$cw-css-prefix}-square:before { content: $cw-var-square; }
+.#{$cw-css-prefix}-navicon:before,
+.#{$cw-css-prefix}-reorder:before,
+.#{$cw-css-prefix}-bars:before { content: $cw-var-bars; }
+.#{$cw-css-prefix}-list-ul:before { content: $cw-var-list-ul; }
+.#{$cw-css-prefix}-list-ol:before { content: $cw-var-list-ol; }
+.#{$cw-css-prefix}-strikethrough:before { content: $cw-var-strikethrough; }
+.#{$cw-css-prefix}-underline:before { content: $cw-var-underline; }
+.#{$cw-css-prefix}-table:before { content: $cw-var-table; }
+.#{$cw-css-prefix}-magic:before { content: $cw-var-magic; }
+.#{$cw-css-prefix}-truck:before { content: $cw-var-truck; }
+.#{$cw-css-prefix}-pinterest:before { content: $cw-var-pinterest; }
+.#{$cw-css-prefix}-pinterest-square:before { content: $cw-var-pinterest-square; }
+.#{$cw-css-prefix}-google-plus-square:before { content: $cw-var-google-plus-square; }
+.#{$cw-css-prefix}-google-plus:before { content: $cw-var-google-plus; }
+.#{$cw-css-prefix}-money:before { content: $cw-var-money; }
+.#{$cw-css-prefix}-caret-down:before { content: $cw-var-caret-down; }
+.#{$cw-css-prefix}-caret-up:before { content: $cw-var-caret-up; }
+.#{$cw-css-prefix}-caret-left:before { content: $cw-var-caret-left; }
+.#{$cw-css-prefix}-caret-right:before { content: $cw-var-caret-right; }
+.#{$cw-css-prefix}-columns:before { content: $cw-var-columns; }
+.#{$cw-css-prefix}-unsorted:before,
+.#{$cw-css-prefix}-sort:before { content: $cw-var-sort; }
+.#{$cw-css-prefix}-sort-down:before,
+.#{$cw-css-prefix}-sort-desc:before { content: $cw-var-sort-desc; }
+.#{$cw-css-prefix}-sort-up:before,
+.#{$cw-css-prefix}-sort-asc:before { content: $cw-var-sort-asc; }
+.#{$cw-css-prefix}-envelope:before { content: $cw-var-envelope; }
+.#{$cw-css-prefix}-linkedin:before { content: $cw-var-linkedin; }
+.#{$cw-css-prefix}-rotate-left:before,
+.#{$cw-css-prefix}-undo:before { content: $cw-var-undo; }
+.#{$cw-css-prefix}-legal:before,
+.#{$cw-css-prefix}-gavel:before { content: $cw-var-gavel; }
+.#{$cw-css-prefix}-dashboard:before,
+.#{$cw-css-prefix}-tachometer:before { content: $cw-var-tachometer; }
+.#{$cw-css-prefix}-comment-o:before { content: $cw-var-comment-o; }
+.#{$cw-css-prefix}-comments-o:before { content: $cw-var-comments-o; }
+.#{$cw-css-prefix}-flash:before,
+.#{$cw-css-prefix}-bolt:before { content: $cw-var-bolt; }
+.#{$cw-css-prefix}-sitemap:before { content: $cw-var-sitemap; }
+.#{$cw-css-prefix}-umbrella:before { content: $cw-var-umbrella; }
+.#{$cw-css-prefix}-paste:before,
+.#{$cw-css-prefix}-clipboard:before { content: $cw-var-clipboard; }
+.#{$cw-css-prefix}-lightbulb-o:before { content: $cw-var-lightbulb-o; }
+.#{$cw-css-prefix}-exchange:before { content: $cw-var-exchange; }
+.#{$cw-css-prefix}-cloud-download:before { content: $cw-var-cloud-download; }
+.#{$cw-css-prefix}-cloud-upload:before { content: $cw-var-cloud-upload; }
+.#{$cw-css-prefix}-user-md:before { content: $cw-var-user-md; }
+.#{$cw-css-prefix}-stethoscope:before { content: $cw-var-stethoscope; }
+.#{$cw-css-prefix}-suitcase:before { content: $cw-var-suitcase; }
+.#{$cw-css-prefix}-bell-o:before { content: $cw-var-bell-o; }
+.#{$cw-css-prefix}-coffee:before { content: $cw-var-coffee; }
+.#{$cw-css-prefix}-cutlery:before { content: $cw-var-cutlery; }
+.#{$cw-css-prefix}-file-text-o:before { content: $cw-var-file-text-o; }
+.#{$cw-css-prefix}-building-o:before { content: $cw-var-building-o; }
+.#{$cw-css-prefix}-hospital-o:before { content: $cw-var-hospital-o; }
+.#{$cw-css-prefix}-ambulance:before { content: $cw-var-ambulance; }
+.#{$cw-css-prefix}-medkit:before { content: $cw-var-medkit; }
+.#{$cw-css-prefix}-fighter-jet:before { content: $cw-var-fighter-jet; }
+.#{$cw-css-prefix}-beer:before { content: $cw-var-beer; }
+.#{$cw-css-prefix}-h-square:before { content: $cw-var-h-square; }
+.#{$cw-css-prefix}-plus-square:before { content: $cw-var-plus-square; }
+.#{$cw-css-prefix}-angle-double-left:before { content: $cw-var-angle-double-left; }
+.#{$cw-css-prefix}-angle-double-right:before { content: $cw-var-angle-double-right; }
+.#{$cw-css-prefix}-angle-double-up:before { content: $cw-var-angle-double-up; }
+.#{$cw-css-prefix}-angle-double-down:before { content: $cw-var-angle-double-down; }
+.#{$cw-css-prefix}-angle-left:before { content: $cw-var-angle-left; }
+.#{$cw-css-prefix}-angle-right:before { content: $cw-var-angle-right; }
+.#{$cw-css-prefix}-angle-up:before { content: $cw-var-angle-up; }
+.#{$cw-css-prefix}-angle-down:before { content: $cw-var-angle-down; }
+.#{$cw-css-prefix}-desktop:before { content: $cw-var-desktop; }
+.#{$cw-css-prefix}-laptop:before { content: $cw-var-laptop; }
+.#{$cw-css-prefix}-tablet:before { content: $cw-var-tablet; }
+.#{$cw-css-prefix}-mobile-phone:before,
+.#{$cw-css-prefix}-mobile:before { content: $cw-var-mobile; }
+.#{$cw-css-prefix}-circle-o:before { content: $cw-var-circle-o; }
+.#{$cw-css-prefix}-quote-left:before { content: $cw-var-quote-left; }
+.#{$cw-css-prefix}-quote-right:before { content: $cw-var-quote-right; }
+.#{$cw-css-prefix}-spinner:before { content: $cw-var-spinner; }
+.#{$cw-css-prefix}-circle:before { content: $cw-var-circle; }
+.#{$cw-css-prefix}-mail-reply:before,
+.#{$cw-css-prefix}-reply:before { content: $cw-var-reply; }
+.#{$cw-css-prefix}-github-alt:before { content: $cw-var-github-alt; }
+.#{$cw-css-prefix}-folder-o:before { content: $cw-var-folder-o; }
+.#{$cw-css-prefix}-folder-open-o:before { content: $cw-var-folder-open-o; }
+.#{$cw-css-prefix}-smile-o:before { content: $cw-var-smile-o; }
+.#{$cw-css-prefix}-frown-o:before { content: $cw-var-frown-o; }
+.#{$cw-css-prefix}-meh-o:before { content: $cw-var-meh-o; }
+.#{$cw-css-prefix}-gamepad:before { content: $cw-var-gamepad; }
+.#{$cw-css-prefix}-keyboard-o:before { content: $cw-var-keyboard-o; }
+.#{$cw-css-prefix}-flag-o:before { content: $cw-var-flag-o; }
+.#{$cw-css-prefix}-flag-checkered:before { content: $cw-var-flag-checkered; }
+.#{$cw-css-prefix}-terminal:before { content: $cw-var-terminal; }
+.#{$cw-css-prefix}-code:before { content: $cw-var-code; }
+.#{$cw-css-prefix}-mail-reply-all:before,
+.#{$cw-css-prefix}-reply-all:before { content: $cw-var-reply-all; }
+.#{$cw-css-prefix}-star-half-empty:before,
+.#{$cw-css-prefix}-star-half-full:before,
+.#{$cw-css-prefix}-star-half-o:before { content: $cw-var-star-half-o; }
+.#{$cw-css-prefix}-location-arrow:before { content: $cw-var-location-arrow; }
+.#{$cw-css-prefix}-crop:before { content: $cw-var-crop; }
+.#{$cw-css-prefix}-code-fork:before { content: $cw-var-code-fork; }
+.#{$cw-css-prefix}-unlink:before,
+.#{$cw-css-prefix}-chain-broken:before { content: $cw-var-chain-broken; }
+.#{$cw-css-prefix}-question:before { content: $cw-var-question; }
+.#{$cw-css-prefix}-info:before { content: $cw-var-info; }
+.#{$cw-css-prefix}-exclamation:before { content: $cw-var-exclamation; }
+.#{$cw-css-prefix}-superscript:before { content: $cw-var-superscript; }
+.#{$cw-css-prefix}-subscript:before { content: $cw-var-subscript; }
+.#{$cw-css-prefix}-eraser:before { content: $cw-var-eraser; }
+.#{$cw-css-prefix}-puzzle-piece:before { content: $cw-var-puzzle-piece; }
+.#{$cw-css-prefix}-microphone:before { content: $cw-var-microphone; }
+.#{$cw-css-prefix}-microphone-slash:before { content: $cw-var-microphone-slash; }
+.#{$cw-css-prefix}-shield:before { content: $cw-var-shield; }
+.#{$cw-css-prefix}-calendar-o:before { content: $cw-var-calendar-o; }
+.#{$cw-css-prefix}-fire-extinguisher:before { content: $cw-var-fire-extinguisher; }
+.#{$cw-css-prefix}-rocket:before { content: $cw-var-rocket; }
+.#{$cw-css-prefix}-maxcdn:before { content: $cw-var-maxcdn; }
+.#{$cw-css-prefix}-chevron-circle-left:before { content: $cw-var-chevron-circle-left; }
+.#{$cw-css-prefix}-chevron-circle-right:before { content: $cw-var-chevron-circle-right; }
+.#{$cw-css-prefix}-chevron-circle-up:before { content: $cw-var-chevron-circle-up; }
+.#{$cw-css-prefix}-chevron-circle-down:before { content: $cw-var-chevron-circle-down; }
+.#{$cw-css-prefix}-html5:before { content: $cw-var-html5; }
+.#{$cw-css-prefix}-css3:before { content: $cw-var-css3; }
+.#{$cw-css-prefix}-anchor:before { content: $cw-var-anchor; }
+.#{$cw-css-prefix}-unlock-alt:before { content: $cw-var-unlock-alt; }
+.#{$cw-css-prefix}-bullseye:before { content: $cw-var-bullseye; }
+.#{$cw-css-prefix}-ellipsis-h:before { content: $cw-var-ellipsis-h; }
+.#{$cw-css-prefix}-ellipsis-v:before { content: $cw-var-ellipsis-v; }
+.#{$cw-css-prefix}-rss-square:before { content: $cw-var-rss-square; }
+.#{$cw-css-prefix}-play-circle:before { content: $cw-var-play-circle; }
+.#{$cw-css-prefix}-ticket:before { content: $cw-var-ticket; }
+.#{$cw-css-prefix}-minus-square:before { content: $cw-var-minus-square; }
+.#{$cw-css-prefix}-minus-square-o:before { content: $cw-var-minus-square-o; }
+.#{$cw-css-prefix}-level-up:before { content: $cw-var-level-up; }
+.#{$cw-css-prefix}-level-down:before { content: $cw-var-level-down; }
+.#{$cw-css-prefix}-check-square:before { content: $cw-var-check-square; }
+.#{$cw-css-prefix}-pencil-square:before { content: $cw-var-pencil-square; }
+.#{$cw-css-prefix}-external-link-square:before { content: $cw-var-external-link-square; }
+.#{$cw-css-prefix}-share-square:before { content: $cw-var-share-square; }
+.#{$cw-css-prefix}-compass:before { content: $cw-var-compass; }
+.#{$cw-css-prefix}-toggle-down:before,
+.#{$cw-css-prefix}-caret-square-o-down:before { content: $cw-var-caret-square-o-down; }
+.#{$cw-css-prefix}-toggle-up:before,
+.#{$cw-css-prefix}-caret-square-o-up:before { content: $cw-var-caret-square-o-up; }
+.#{$cw-css-prefix}-toggle-right:before,
+.#{$cw-css-prefix}-caret-square-o-right:before { content: $cw-var-caret-square-o-right; }
+.#{$cw-css-prefix}-euro:before,
+.#{$cw-css-prefix}-eur:before { content: $cw-var-eur; }
+.#{$cw-css-prefix}-gbp:before { content: $cw-var-gbp; }
+.#{$cw-css-prefix}-dollar:before,
+.#{$cw-css-prefix}-usd:before { content: $cw-var-usd; }
+.#{$cw-css-prefix}-rupee:before,
+.#{$cw-css-prefix}-inr:before { content: $cw-var-inr; }
+.#{$cw-css-prefix}-cny:before,
+.#{$cw-css-prefix}-rmb:before,
+.#{$cw-css-prefix}-yen:before,
+.#{$cw-css-prefix}-jpy:before { content: $cw-var-jpy; }
+.#{$cw-css-prefix}-ruble:before,
+.#{$cw-css-prefix}-rouble:before,
+.#{$cw-css-prefix}-rub:before { content: $cw-var-rub; }
+.#{$cw-css-prefix}-won:before,
+.#{$cw-css-prefix}-krw:before { content: $cw-var-krw; }
+.#{$cw-css-prefix}-bitcoin:before,
+.#{$cw-css-prefix}-btc:before { content: $cw-var-btc; }
+.#{$cw-css-prefix}-file:before { content: $cw-var-file; }
+.#{$cw-css-prefix}-file-text:before { content: $cw-var-file-text; }
+.#{$cw-css-prefix}-sort-alpha-asc:before { content: $cw-var-sort-alpha-asc; }
+.#{$cw-css-prefix}-sort-alpha-desc:before { content: $cw-var-sort-alpha-desc; }
+.#{$cw-css-prefix}-sort-amount-asc:before { content: $cw-var-sort-amount-asc; }
+.#{$cw-css-prefix}-sort-amount-desc:before { content: $cw-var-sort-amount-desc; }
+.#{$cw-css-prefix}-sort-numeric-asc:before { content: $cw-var-sort-numeric-asc; }
+.#{$cw-css-prefix}-sort-numeric-desc:before { content: $cw-var-sort-numeric-desc; }
+.#{$cw-css-prefix}-thumbs-up:before { content: $cw-var-thumbs-up; }
+.#{$cw-css-prefix}-thumbs-down:before { content: $cw-var-thumbs-down; }
+.#{$cw-css-prefix}-youtube-square:before { content: $cw-var-youtube-square; }
+.#{$cw-css-prefix}-youtube:before { content: $cw-var-youtube; }
+.#{$cw-css-prefix}-xing:before { content: $cw-var-xing; }
+.#{$cw-css-prefix}-xing-square:before { content: $cw-var-xing-square; }
+.#{$cw-css-prefix}-youtube-play:before { content: $cw-var-youtube-play; }
+.#{$cw-css-prefix}-dropbox:before { content: $cw-var-dropbox; }
+.#{$cw-css-prefix}-code-help:before { content: $cw-var-code-help; }
+.#{$cw-css-prefix}-instagram:before { content: $cw-var-instagram; }
+.#{$cw-css-prefix}-flickr:before { content: $cw-var-flickr; }
+.#{$cw-css-prefix}-adn:before { content: $cw-var-adn; }
+.#{$cw-css-prefix}-bitbucket:before { content: $cw-var-bitbucket; }
+.#{$cw-css-prefix}-bitbucket-square:before { content: $cw-var-bitbucket-square; }
+.#{$cw-css-prefix}-tumblr:before { content: $cw-var-tumblr; }
+.#{$cw-css-prefix}-tumblr-square:before { content: $cw-var-tumblr-square; }
+.#{$cw-css-prefix}-long-arrow-down:before { content: $cw-var-long-arrow-down; }
+.#{$cw-css-prefix}-long-arrow-up:before { content: $cw-var-long-arrow-up; }
+.#{$cw-css-prefix}-long-arrow-left:before { content: $cw-var-long-arrow-left; }
+.#{$cw-css-prefix}-long-arrow-right:before { content: $cw-var-long-arrow-right; }
+.#{$cw-css-prefix}-apple:before { content: $cw-var-apple; }
+.#{$cw-css-prefix}-windows:before { content: $cw-var-windows; }
+.#{$cw-css-prefix}-android:before { content: $cw-var-android; }
+.#{$cw-css-prefix}-linux:before { content: $cw-var-linux; }
+.#{$cw-css-prefix}-dribbble:before { content: $cw-var-dribbble; }
+.#{$cw-css-prefix}-skype:before { content: $cw-var-skype; }
+.#{$cw-css-prefix}-foursquare:before { content: $cw-var-foursquare; }
+.#{$cw-css-prefix}-trello:before { content: $cw-var-trello; }
+.#{$cw-css-prefix}-female:before { content: $cw-var-female; }
+.#{$cw-css-prefix}-male:before { content: $cw-var-male; }
+.#{$cw-css-prefix}-gittip:before,
+.#{$cw-css-prefix}-gratipay:before { content: $cw-var-gratipay; }
+.#{$cw-css-prefix}-sun-o:before { content: $cw-var-sun-o; }
+.#{$cw-css-prefix}-moon-o:before { content: $cw-var-moon-o; }
+.#{$cw-css-prefix}-archive:before { content: $cw-var-archive; }
+.#{$cw-css-prefix}-bug:before { content: $cw-var-bug; }
+.#{$cw-css-prefix}-vk:before { content: $cw-var-vk; }
+.#{$cw-css-prefix}-weibo:before { content: $cw-var-weibo; }
+.#{$cw-css-prefix}-renren:before { content: $cw-var-renren; }
+.#{$cw-css-prefix}-pagelines:before { content: $cw-var-pagelines; }
+.#{$cw-css-prefix}-stack-exchange:before { content: $cw-var-stack-exchange; }
+.#{$cw-css-prefix}-arrow-circle-o-right:before { content: $cw-var-arrow-circle-o-right; }
+.#{$cw-css-prefix}-arrow-circle-o-left:before { content: $cw-var-arrow-circle-o-left; }
+.#{$cw-css-prefix}-toggle-left:before,
+.#{$cw-css-prefix}-caret-square-o-left:before { content: $cw-var-caret-square-o-left; }
+.#{$cw-css-prefix}-dot-circle-o:before { content: $cw-var-dot-circle-o; }
+.#{$cw-css-prefix}-wheelchair:before { content: $cw-var-wheelchair; }
+.#{$cw-css-prefix}-vimeo-square:before { content: $cw-var-vimeo-square; }
+.#{$cw-css-prefix}-turkish-lira:before,
+.#{$cw-css-prefix}-try:before { content: $cw-var-try; }
+.#{$cw-css-prefix}-plus-square-o:before { content: $cw-var-plus-square-o; }
+.#{$cw-css-prefix}-space-shuttle:before { content: $cw-var-space-shuttle; }
+.#{$cw-css-prefix}-slack:before { content: $cw-var-slack; }
+.#{$cw-css-prefix}-envelope-square:before { content: $cw-var-envelope-square; }
+.#{$cw-css-prefix}-wordpress:before { content: $cw-var-wordpress; }
+.#{$cw-css-prefix}-openid:before { content: $cw-var-openid; }
+.#{$cw-css-prefix}-institution:before,
+.#{$cw-css-prefix}-bank:before,
+.#{$cw-css-prefix}-university:before { content: $cw-var-university; }
+.#{$cw-css-prefix}-mortar-board:before,
+.#{$cw-css-prefix}-graduation-cap:before { content: $cw-var-graduation-cap; }
+.#{$cw-css-prefix}-yahoo:before { content: $cw-var-yahoo; }
+.#{$cw-css-prefix}-google:before { content: $cw-var-google; }
+.#{$cw-css-prefix}-reddit:before { content: $cw-var-reddit; }
+.#{$cw-css-prefix}-reddit-square:before { content: $cw-var-reddit-square; }
+.#{$cw-css-prefix}-stumbleupon-circle:before { content: $cw-var-stumbleupon-circle; }
+.#{$cw-css-prefix}-stumbleupon:before { content: $cw-var-stumbleupon; }
+.#{$cw-css-prefix}-delicious:before { content: $cw-var-delicious; }
+.#{$cw-css-prefix}-digg:before { content: $cw-var-digg; }
+.#{$cw-css-prefix}-pied-piper-pp:before { content: $cw-var-pied-piper-pp; }
+.#{$cw-css-prefix}-pied-piper-alt:before { content: $cw-var-pied-piper-alt; }
+.#{$cw-css-prefix}-drupal:before { content: $cw-var-drupal; }
+.#{$cw-css-prefix}-joomla:before { content: $cw-var-joomla; }
+.#{$cw-css-prefix}-language:before { content: $cw-var-language; }
+.#{$cw-css-prefix}-fax:before { content: $cw-var-fax; }
+.#{$cw-css-prefix}-building:before { content: $cw-var-building; }
+.#{$cw-css-prefix}-child:before { content: $cw-var-child; }
+.#{$cw-css-prefix}-paw:before { content: $cw-var-paw; }
+.#{$cw-css-prefix}-spoon:before { content: $cw-var-spoon; }
+.#{$cw-css-prefix}-cube:before { content: $cw-var-cube; }
+.#{$cw-css-prefix}-cubes:before { content: $cw-var-cubes; }
+.#{$cw-css-prefix}-behance:before { content: $cw-var-behance; }
+.#{$cw-css-prefix}-behance-square:before { content: $cw-var-behance-square; }
+.#{$cw-css-prefix}-steam:before { content: $cw-var-steam; }
+.#{$cw-css-prefix}-steam-square:before { content: $cw-var-steam-square; }
+.#{$cw-css-prefix}-recycle:before { content: $cw-var-recycle; }
+.#{$cw-css-prefix}-automobile:before,
+.#{$cw-css-prefix}-car:before { content: $cw-var-car; }
+.#{$cw-css-prefix}-cab:before,
+.#{$cw-css-prefix}-taxi:before { content: $cw-var-taxi; }
+.#{$cw-css-prefix}-tree:before { content: $cw-var-tree; }
+.#{$cw-css-prefix}-spotify:before { content: $cw-var-spotify; }
+.#{$cw-css-prefix}-deviantart:before { content: $cw-var-deviantart; }
+.#{$cw-css-prefix}-soundcloud:before { content: $cw-var-soundcloud; }
+.#{$cw-css-prefix}-database:before { content: $cw-var-database; }
+.#{$cw-css-prefix}-file-pdf-o:before { content: $cw-var-file-pdf-o; }
+.#{$cw-css-prefix}-file-word-o:before { content: $cw-var-file-word-o; }
+.#{$cw-css-prefix}-file-excel-o:before { content: $cw-var-file-excel-o; }
+.#{$cw-css-prefix}-file-powerpoint-o:before { content: $cw-var-file-powerpoint-o; }
+.#{$cw-css-prefix}-file-photo-o:before,
+.#{$cw-css-prefix}-file-picture-o:before,
+.#{$cw-css-prefix}-file-image-o:before { content: $cw-var-file-image-o; }
+.#{$cw-css-prefix}-file-zip-o:before,
+.#{$cw-css-prefix}-file-archive-o:before { content: $cw-var-file-archive-o; }
+.#{$cw-css-prefix}-file-sound-o:before,
+.#{$cw-css-prefix}-file-audio-o:before { content: $cw-var-file-audio-o; }
+.#{$cw-css-prefix}-file-movie-o:before,
+.#{$cw-css-prefix}-file-video-o:before { content: $cw-var-file-video-o; }
+.#{$cw-css-prefix}-file-code-o:before { content: $cw-var-file-code-o; }
+.#{$cw-css-prefix}-vine:before { content: $cw-var-vine; }
+.#{$cw-css-prefix}-codepen:before { content: $cw-var-codepen; }
+.#{$cw-css-prefix}-jsfiddle:before { content: $cw-var-jsfiddle; }
+.#{$cw-css-prefix}-life-bouy:before,
+.#{$cw-css-prefix}-life-buoy:before,
+.#{$cw-css-prefix}-life-saver:before,
+.#{$cw-css-prefix}-support:before,
+.#{$cw-css-prefix}-life-ring:before { content: $cw-var-life-ring; }
+.#{$cw-css-prefix}-circle-o-notch:before { content: $cw-var-circle-o-notch; }
+.#{$cw-css-prefix}-ra:before,
+.#{$cw-css-prefix}-resistance:before,
+.#{$cw-css-prefix}-rebel:before { content: $cw-var-rebel; }
+.#{$cw-css-prefix}-ge:before,
+.#{$cw-css-prefix}-empire:before { content: $cw-var-empire; }
+.#{$cw-css-prefix}-git-square:before { content: $cw-var-git-square; }
+.#{$cw-css-prefix}-git:before { content: $cw-var-git; }
+.#{$cw-css-prefix}-y-combinator-square:before,
+.#{$cw-css-prefix}-yc-square:before,
+.#{$cw-css-prefix}-hacker-news:before { content: $cw-var-hacker-news; }
+.#{$cw-css-prefix}-tencent-weibo:before { content: $cw-var-tencent-weibo; }
+.#{$cw-css-prefix}-qq:before { content: $cw-var-qq; }
+.#{$cw-css-prefix}-wechat:before,
+.#{$cw-css-prefix}-weixin:before { content: $cw-var-weixin; }
+.#{$cw-css-prefix}-send:before,
+.#{$cw-css-prefix}-paper-plane:before { content: $cw-var-paper-plane; }
+.#{$cw-css-prefix}-send-o:before,
+.#{$cw-css-prefix}-paper-plane-o:before { content: $cw-var-paper-plane-o; }
+.#{$cw-css-prefix}-history:before { content: $cw-var-history; }
+.#{$cw-css-prefix}-circle-thin:before { content: $cw-var-circle-thin; }
+.#{$cw-css-prefix}-header:before { content: $cw-var-header; }
+.#{$cw-css-prefix}-paragraph:before { content: $cw-var-paragraph; }
+.#{$cw-css-prefix}-sliders:before { content: $cw-var-sliders; }
+.#{$cw-css-prefix}-share-alt:before { content: $cw-var-share-alt; }
+.#{$cw-css-prefix}-share-alt-square:before { content: $cw-var-share-alt-square; }
+.#{$cw-css-prefix}-bomb:before { content: $cw-var-bomb; }
+.#{$cw-css-prefix}-soccer-ball-o:before,
+.#{$cw-css-prefix}-futbol-o:before { content: $cw-var-futbol-o; }
+.#{$cw-css-prefix}-tty:before { content: $cw-var-tty; }
+.#{$cw-css-prefix}-binoculars:before { content: $cw-var-binoculars; }
+.#{$cw-css-prefix}-plug:before { content: $cw-var-plug; }
+.#{$cw-css-prefix}-slideshare:before { content: $cw-var-slideshare; }
+.#{$cw-css-prefix}-twitch:before { content: $cw-var-twitch; }
+.#{$cw-css-prefix}-yelp:before { content: $cw-var-yelp; }
+.#{$cw-css-prefix}-newspaper-o:before { content: $cw-var-newspaper-o; }
+.#{$cw-css-prefix}-wifi:before { content: $cw-var-wifi; }
+.#{$cw-css-prefix}-calculator:before { content: $cw-var-calculator; }
+.#{$cw-css-prefix}-paypal:before { content: $cw-var-paypal; }
+.#{$cw-css-prefix}-google-wallet:before { content: $cw-var-google-wallet; }
+.#{$cw-css-prefix}-cc-visa:before { content: $cw-var-cc-visa; }
+.#{$cw-css-prefix}-cc-mastercard:before { content: $cw-var-cc-mastercard; }
+.#{$cw-css-prefix}-cc-discover:before { content: $cw-var-cc-discover; }
+.#{$cw-css-prefix}-cc-amex:before { content: $cw-var-cc-amex; }
+.#{$cw-css-prefix}-cc-paypal:before { content: $cw-var-cc-paypal; }
+.#{$cw-css-prefix}-cc-stripe:before { content: $cw-var-cc-stripe; }
+.#{$cw-css-prefix}-bell-slash:before { content: $cw-var-bell-slash; }
+.#{$cw-css-prefix}-bell-slash-o:before { content: $cw-var-bell-slash-o; }
+.#{$cw-css-prefix}-trash:before { content: $cw-var-trash; }
+.#{$cw-css-prefix}-copyright:before { content: $cw-var-copyright; }
+.#{$cw-css-prefix}-at:before { content: $cw-var-at; }
+.#{$cw-css-prefix}-eyedropper:before { content: $cw-var-eyedropper; }
+.#{$cw-css-prefix}-paint-brush:before { content: $cw-var-paint-brush; }
+.#{$cw-css-prefix}-birthday-cake:before { content: $cw-var-birthday-cake; }
+.#{$cw-css-prefix}-area-chart:before { content: $cw-var-area-chart; }
+.#{$cw-css-prefix}-pie-chart:before { content: $cw-var-pie-chart; }
+.#{$cw-css-prefix}-line-chart:before { content: $cw-var-line-chart; }
+.#{$cw-css-prefix}-lastfm:before { content: $cw-var-lastfm; }
+.#{$cw-css-prefix}-lastfm-square:before { content: $cw-var-lastfm-square; }
+.#{$cw-css-prefix}-toggle-off:before { content: $cw-var-toggle-off; }
+.#{$cw-css-prefix}-toggle-on:before { content: $cw-var-toggle-on; }
+.#{$cw-css-prefix}-bicycle:before { content: $cw-var-bicycle; }
+.#{$cw-css-prefix}-bus:before { content: $cw-var-bus; }
+.#{$cw-css-prefix}-ioxhost:before { content: $cw-var-ioxhost; }
+.#{$cw-css-prefix}-angellist:before { content: $cw-var-angellist; }
+.#{$cw-css-prefix}-cc:before { content: $cw-var-cc; }
+.#{$cw-css-prefix}-shekel:before,
+.#{$cw-css-prefix}-sheqel:before,
+.#{$cw-css-prefix}-ils:before { content: $cw-var-ils; }
+.#{$cw-css-prefix}-meanpath:before { content: $cw-var-meanpath; }
+.#{$cw-css-prefix}-buysellads:before { content: $cw-var-buysellads; }
+.#{$cw-css-prefix}-connectdevelop:before { content: $cw-var-connectdevelop; }
+.#{$cw-css-prefix}-dashcube:before { content: $cw-var-dashcube; }
+.#{$cw-css-prefix}-forumbee:before { content: $cw-var-forumbee; }
+.#{$cw-css-prefix}-leanpub:before { content: $cw-var-leanpub; }
+.#{$cw-css-prefix}-sellsy:before { content: $cw-var-sellsy; }
+.#{$cw-css-prefix}-shirtsinbulk:before { content: $cw-var-shirtsinbulk; }
+.#{$cw-css-prefix}-simplybuilt:before { content: $cw-var-simplybuilt; }
+.#{$cw-css-prefix}-skyatlas:before { content: $cw-var-skyatlas; }
+.#{$cw-css-prefix}-cart-plus:before { content: $cw-var-cart-plus; }
+.#{$cw-css-prefix}-cart-arrow-down:before { content: $cw-var-cart-arrow-down; }
+.#{$cw-css-prefix}-diamond:before { content: $cw-var-diamond; }
+.#{$cw-css-prefix}-ship:before { content: $cw-var-ship; }
+.#{$cw-css-prefix}-user-secret:before { content: $cw-var-user-secret; }
+.#{$cw-css-prefix}-motorcycle:before { content: $cw-var-motorcycle; }
+.#{$cw-css-prefix}-street-view:before { content: $cw-var-street-view; }
+.#{$cw-css-prefix}-heartbeat:before { content: $cw-var-heartbeat; }
+.#{$cw-css-prefix}-venus:before { content: $cw-var-venus; }
+.#{$cw-css-prefix}-mars:before { content: $cw-var-mars; }
+.#{$cw-css-prefix}-mercury:before { content: $cw-var-mercury; }
+.#{$cw-css-prefix}-intersex:before,
+.#{$cw-css-prefix}-transgender:before { content: $cw-var-transgender; }
+.#{$cw-css-prefix}-transgender-alt:before { content: $cw-var-transgender-alt; }
+.#{$cw-css-prefix}-venus-double:before { content: $cw-var-venus-double; }
+.#{$cw-css-prefix}-mars-double:before { content: $cw-var-mars-double; }
+.#{$cw-css-prefix}-venus-mars:before { content: $cw-var-venus-mars; }
+.#{$cw-css-prefix}-mars-stroke:before { content: $cw-var-mars-stroke; }
+.#{$cw-css-prefix}-mars-stroke-v:before { content: $cw-var-mars-stroke-v; }
+.#{$cw-css-prefix}-mars-stroke-h:before { content: $cw-var-mars-stroke-h; }
+.#{$cw-css-prefix}-neuter:before { content: $cw-var-neuter; }
+.#{$cw-css-prefix}-genderless:before { content: $cw-var-genderless; }
+.#{$cw-css-prefix}-facebook-official:before { content: $cw-var-facebook-official; }
+.#{$cw-css-prefix}-pinterest-p:before { content: $cw-var-pinterest-p; }
+.#{$cw-css-prefix}-whatsapp:before { content: $cw-var-whatsapp; }
+.#{$cw-css-prefix}-server:before { content: $cw-var-server; }
+.#{$cw-css-prefix}-user-plus:before { content: $cw-var-user-plus; }
+.#{$cw-css-prefix}-user-times:before { content: $cw-var-user-times; }
+.#{$cw-css-prefix}-hotel:before,
+.#{$cw-css-prefix}-bed:before { content: $cw-var-bed; }
+.#{$cw-css-prefix}-viacoin:before { content: $cw-var-viacoin; }
+.#{$cw-css-prefix}-train:before { content: $cw-var-train; }
+.#{$cw-css-prefix}-subway:before { content: $cw-var-subway; }
+.#{$cw-css-prefix}-medium:before { content: $cw-var-medium; }
+.#{$cw-css-prefix}-yc:before,
+.#{$cw-css-prefix}-y-combinator:before { content: $cw-var-y-combinator; }
+.#{$cw-css-prefix}-optin-monster:before { content: $cw-var-optin-monster; }
+.#{$cw-css-prefix}-opencart:before { content: $cw-var-opencart; }
+.#{$cw-css-prefix}-expeditedssl:before { content: $cw-var-expeditedssl; }
+.#{$cw-css-prefix}-battery-4:before,
+.#{$cw-css-prefix}-battery:before,
+.#{$cw-css-prefix}-battery-full:before { content: $cw-var-battery-full; }
+.#{$cw-css-prefix}-battery-3:before,
+.#{$cw-css-prefix}-battery-three-quarters:before { content: $cw-var-battery-three-quarters; }
+.#{$cw-css-prefix}-battery-2:before,
+.#{$cw-css-prefix}-battery-half:before { content: $cw-var-battery-half; }
+.#{$cw-css-prefix}-battery-1:before,
+.#{$cw-css-prefix}-battery-quarter:before { content: $cw-var-battery-quarter; }
+.#{$cw-css-prefix}-battery-0:before,
+.#{$cw-css-prefix}-battery-empty:before { content: $cw-var-battery-empty; }
+.#{$cw-css-prefix}-mouse-pointer:before { content: $cw-var-mouse-pointer; }
+.#{$cw-css-prefix}-i-cursor:before { content: $cw-var-i-cursor; }
+.#{$cw-css-prefix}-object-group:before { content: $cw-var-object-group; }
+.#{$cw-css-prefix}-object-ungroup:before { content: $cw-var-object-ungroup; }
+.#{$cw-css-prefix}-sticky-note:before { content: $cw-var-sticky-note; }
+.#{$cw-css-prefix}-sticky-note-o:before { content: $cw-var-sticky-note-o; }
+.#{$cw-css-prefix}-cc-jcb:before { content: $cw-var-cc-jcb; }
+.#{$cw-css-prefix}-cc-diners-club:before { content: $cw-var-cc-diners-club; }
+.#{$cw-css-prefix}-clone:before { content: $cw-var-clone; }
+.#{$cw-css-prefix}-balance-scale:before { content: $cw-var-balance-scale; }
+.#{$cw-css-prefix}-hourglass-o:before { content: $cw-var-hourglass-o; }
+.#{$cw-css-prefix}-hourglass-1:before,
+.#{$cw-css-prefix}-hourglass-start:before { content: $cw-var-hourglass-start; }
+.#{$cw-css-prefix}-hourglass-2:before,
+.#{$cw-css-prefix}-hourglass-half:before { content: $cw-var-hourglass-half; }
+.#{$cw-css-prefix}-hourglass-3:before,
+.#{$cw-css-prefix}-hourglass-end:before { content: $cw-var-hourglass-end; }
+.#{$cw-css-prefix}-hourglass:before { content: $cw-var-hourglass; }
+.#{$cw-css-prefix}-hand-grab-o:before,
+.#{$cw-css-prefix}-hand-rock-o:before { content: $cw-var-hand-rock-o; }
+.#{$cw-css-prefix}-hand-stop-o:before,
+.#{$cw-css-prefix}-hand-paper-o:before { content: $cw-var-hand-paper-o; }
+.#{$cw-css-prefix}-hand-scissors-o:before { content: $cw-var-hand-scissors-o; }
+.#{$cw-css-prefix}-hand-lizard-o:before { content: $cw-var-hand-lizard-o; }
+.#{$cw-css-prefix}-hand-spock-o:before { content: $cw-var-hand-spock-o; }
+.#{$cw-css-prefix}-hand-pointer-o:before { content: $cw-var-hand-pointer-o; }
+.#{$cw-css-prefix}-hand-peace-o:before { content: $cw-var-hand-peace-o; }
+.#{$cw-css-prefix}-trademark:before { content: $cw-var-trademark; }
+.#{$cw-css-prefix}-registered:before { content: $cw-var-registered; }
+.#{$cw-css-prefix}-creative-commons:before { content: $cw-var-creative-commons; }
+.#{$cw-css-prefix}-gg:before { content: $cw-var-gg; }
+.#{$cw-css-prefix}-gg-circle:before { content: $cw-var-gg-circle; }
+.#{$cw-css-prefix}-tripadvisor:before { content: $cw-var-tripadvisor; }
+.#{$cw-css-prefix}-odnoklassniki:before { content: $cw-var-odnoklassniki; }
+.#{$cw-css-prefix}-odnoklassniki-square:before { content: $cw-var-odnoklassniki-square; }
+.#{$cw-css-prefix}-get-pocket:before { content: $cw-var-get-pocket; }
+.#{$cw-css-prefix}-wikipedia-w:before { content: $cw-var-wikipedia-w; }
+.#{$cw-css-prefix}-safari:before { content: $cw-var-safari; }
+.#{$cw-css-prefix}-chrome:before { content: $cw-var-chrome; }
+.#{$cw-css-prefix}-firefox:before { content: $cw-var-firefox; }
+.#{$cw-css-prefix}-opera:before { content: $cw-var-opera; }
+.#{$cw-css-prefix}-internet-explorer:before { content: $cw-var-internet-explorer; }
+.#{$cw-css-prefix}-tv:before,
+.#{$cw-css-prefix}-television:before { content: $cw-var-television; }
+.#{$cw-css-prefix}-contao:before { content: $cw-var-contao; }
+.#{$cw-css-prefix}-500px:before { content: $cw-var-500px; }
+.#{$cw-css-prefix}-amazon:before { content: $cw-var-amazon; }
+.#{$cw-css-prefix}-calendar-plus-o:before { content: $cw-var-calendar-plus-o; }
+.#{$cw-css-prefix}-calendar-minus-o:before { content: $cw-var-calendar-minus-o; }
+.#{$cw-css-prefix}-calendar-times-o:before { content: $cw-var-calendar-times-o; }
+.#{$cw-css-prefix}-calendar-check-o:before { content: $cw-var-calendar-check-o; }
+.#{$cw-css-prefix}-industry:before { content: $cw-var-industry; }
+.#{$cw-css-prefix}-map-pin:before { content: $cw-var-map-pin; }
+.#{$cw-css-prefix}-map-signs:before { content: $cw-var-map-signs; }
+.#{$cw-css-prefix}-map-o:before { content: $cw-var-map-o; }
+.#{$cw-css-prefix}-map:before { content: $cw-var-map; }
+.#{$cw-css-prefix}-commenting:before { content: $cw-var-commenting; }
+.#{$cw-css-prefix}-commenting-o:before { content: $cw-var-commenting-o; }
+.#{$cw-css-prefix}-houzz:before { content: $cw-var-houzz; }
+.#{$cw-css-prefix}-vimeo:before { content: $cw-var-vimeo; }
+.#{$cw-css-prefix}-black-tie:before { content: $cw-var-black-tie; }
+.#{$cw-css-prefix}-fonticons:before { content: $cw-var-fonticons; }
+.#{$cw-css-prefix}-reddit-alien:before { content: $cw-var-reddit-alien; }
+.#{$cw-css-prefix}-edge:before { content: $cw-var-edge; }
+.#{$cw-css-prefix}-credit-card-alt:before { content: $cw-var-credit-card-alt; }
+.#{$cw-css-prefix}-codiepie:before { content: $cw-var-codiepie; }
+.#{$cw-css-prefix}-modx:before { content: $cw-var-modx; }
+.#{$cw-css-prefix}-fort-awesome:before { content: $cw-var-fort-awesome; }
+.#{$cw-css-prefix}-usb:before { content: $cw-var-usb; }
+.#{$cw-css-prefix}-product-hunt:before { content: $cw-var-product-hunt; }
+.#{$cw-css-prefix}-mixcloud:before { content: $cw-var-mixcloud; }
+.#{$cw-css-prefix}-scribd:before { content: $cw-var-scribd; }
+.#{$cw-css-prefix}-pause-circle:before { content: $cw-var-pause-circle; }
+.#{$cw-css-prefix}-pause-circle-o:before { content: $cw-var-pause-circle-o; }
+.#{$cw-css-prefix}-stop-circle:before { content: $cw-var-stop-circle; }
+.#{$cw-css-prefix}-stop-circle-o:before { content: $cw-var-stop-circle-o; }
+.#{$cw-css-prefix}-shopping-bag:before { content: $cw-var-shopping-bag; }
+.#{$cw-css-prefix}-shopping-basket:before { content: $cw-var-shopping-basket; }
+.#{$cw-css-prefix}-hashtag:before { content: $cw-var-hashtag; }
+.#{$cw-css-prefix}-bluetooth:before { content: $cw-var-bluetooth; }
+.#{$cw-css-prefix}-bluetooth-b:before { content: $cw-var-bluetooth-b; }
+.#{$cw-css-prefix}-percent:before { content: $cw-var-percent; }
+.#{$cw-css-prefix}-gitlab:before { content: $cw-var-gitlab; }
+.#{$cw-css-prefix}-wpbeginner:before { content: $cw-var-wpbeginner; }
+.#{$cw-css-prefix}-wpforms:before { content: $cw-var-wpforms; }
+.#{$cw-css-prefix}-envira:before { content: $cw-var-envira; }
+.#{$cw-css-prefix}-universal-access:before { content: $cw-var-universal-access; }
+.#{$cw-css-prefix}-wheelchair-alt:before { content: $cw-var-wheelchair-alt; }
+.#{$cw-css-prefix}-question-circle-o:before { content: $cw-var-question-circle-o; }
+.#{$cw-css-prefix}-blind:before { content: $cw-var-blind; }
+.#{$cw-css-prefix}-audio-description:before { content: $cw-var-audio-description; }
+.#{$cw-css-prefix}-volume-control-phone:before { content: $cw-var-volume-control-phone; }
+.#{$cw-css-prefix}-braille:before { content: $cw-var-braille; }
+.#{$cw-css-prefix}-assistive-listening-systems:before { content: $cw-var-assistive-listening-systems; }
+.#{$cw-css-prefix}-asl-interpreting:before,
+.#{$cw-css-prefix}-american-sign-language-interpreting:before { content: $cw-var-american-sign-language-interpreting; }
+.#{$cw-css-prefix}-deafness:before,
+.#{$cw-css-prefix}-hard-of-hearing:before,
+.#{$cw-css-prefix}-deaf:before { content: $cw-var-deaf; }
+.#{$cw-css-prefix}-glide:before { content: $cw-var-glide; }
+.#{$cw-css-prefix}-glide-g:before { content: $cw-var-glide-g; }
+.#{$cw-css-prefix}-signing:before,
+.#{$cw-css-prefix}-sign-language:before { content: $cw-var-sign-language; }
+.#{$cw-css-prefix}-low-vision:before { content: $cw-var-low-vision; }
+.#{$cw-css-prefix}-viadeo:before { content: $cw-var-viadeo; }
+.#{$cw-css-prefix}-viadeo-square:before { content: $cw-var-viadeo-square; }
+.#{$cw-css-prefix}-snapchat:before { content: $cw-var-snapchat; }
+.#{$cw-css-prefix}-snapchat-ghost:before { content: $cw-var-snapchat-ghost; }
+.#{$cw-css-prefix}-snapchat-square:before { content: $cw-var-snapchat-square; }
+.#{$cw-css-prefix}-pied-piper:before { content: $cw-var-pied-piper; }
+.#{$cw-css-prefix}-first-order:before { content: $cw-var-first-order; }
+.#{$cw-css-prefix}-yoast:before { content: $cw-var-yoast; }
+.#{$cw-css-prefix}-themeisle:before { content: $cw-var-themeisle; }
+.#{$cw-css-prefix}-google-plus-circle:before,
+.#{$cw-css-prefix}-google-plus-official:before { content: $cw-var-google-plus-official; }
+.#{$cw-css-prefix}-fa:before,
+.#{$cw-css-prefix}-cw-amazing:before { content: $cw-var-cw-amazing; }
+.#{$cw-css-prefix}-handshake-o:before { content: $cw-var-handshake-o; }
+.#{$cw-css-prefix}-envelope-open:before { content: $cw-var-envelope-open; }
+.#{$cw-css-prefix}-envelope-open-o:before { content: $cw-var-envelope-open-o; }
+.#{$cw-css-prefix}-linode:before { content: $cw-var-linode; }
+.#{$cw-css-prefix}-address-book:before { content: $cw-var-address-book; }
+.#{$cw-css-prefix}-address-book-o:before { content: $cw-var-address-book-o; }
+.#{$cw-css-prefix}-vcard:before,
+.#{$cw-css-prefix}-address-card:before { content: $cw-var-address-card; }
+.#{$cw-css-prefix}-vcard-o:before,
+.#{$cw-css-prefix}-address-card-o:before { content: $cw-var-address-card-o; }
+.#{$cw-css-prefix}-user-circle:before { content: $cw-var-user-circle; }
+.#{$cw-css-prefix}-user-circle-o:before { content: $cw-var-user-circle-o; }
+.#{$cw-css-prefix}-user-o:before { content: $cw-var-user-o; }
+.#{$cw-css-prefix}-id-badge:before { content: $cw-var-id-badge; }
+.#{$cw-css-prefix}-drivers-license:before,
+.#{$cw-css-prefix}-id-card:before { content: $cw-var-id-card; }
+.#{$cw-css-prefix}-drivers-license-o:before,
+.#{$cw-css-prefix}-id-card-o:before { content: $cw-var-id-card-o; }
+.#{$cw-css-prefix}-quora:before { content: $cw-var-quora; }
+.#{$cw-css-prefix}-free-code-camp:before { content: $cw-var-free-code-camp; }
+.#{$cw-css-prefix}-telegram:before { content: $cw-var-telegram; }
+.#{$cw-css-prefix}-thermometer-4:before,
+.#{$cw-css-prefix}-thermometer:before,
+.#{$cw-css-prefix}-thermometer-full:before { content: $cw-var-thermometer-full; }
+.#{$cw-css-prefix}-thermometer-3:before,
+.#{$cw-css-prefix}-thermometer-three-quarters:before { content: $cw-var-thermometer-three-quarters; }
+.#{$cw-css-prefix}-thermometer-2:before,
+.#{$cw-css-prefix}-thermometer-half:before { content: $cw-var-thermometer-half; }
+.#{$cw-css-prefix}-thermometer-1:before,
+.#{$cw-css-prefix}-thermometer-quarter:before { content: $cw-var-thermometer-quarter; }
+.#{$cw-css-prefix}-thermometer-0:before,
+.#{$cw-css-prefix}-thermometer-empty:before { content: $cw-var-thermometer-empty; }
+.#{$cw-css-prefix}-shower:before { content: $cw-var-shower; }
+.#{$cw-css-prefix}-bathtub:before,
+.#{$cw-css-prefix}-s15:before,
+.#{$cw-css-prefix}-bath:before { content: $cw-var-bath; }
+.#{$cw-css-prefix}-podcast:before { content: $cw-var-podcast; }
+.#{$cw-css-prefix}-window-maximize:before { content: $cw-var-window-maximize; }
+.#{$cw-css-prefix}-window-minimize:before { content: $cw-var-window-minimize; }
+.#{$cw-css-prefix}-window-restore:before { content: $cw-var-window-restore; }
+.#{$cw-css-prefix}-times-rectangle:before,
+.#{$cw-css-prefix}-window-close:before { content: $cw-var-window-close; }
+.#{$cw-css-prefix}-times-rectangle-o:before,
+.#{$cw-css-prefix}-window-close-o:before { content: $cw-var-window-close-o; }
+.#{$cw-css-prefix}-bandcamp:before { content: $cw-var-bandcamp; }
+.#{$cw-css-prefix}-grav:before { content: $cw-var-grav; }
+.#{$cw-css-prefix}-etsy:before { content: $cw-var-etsy; }
+.#{$cw-css-prefix}-imdb:before { content: $cw-var-imdb; }
+.#{$cw-css-prefix}-ravelry:before { content: $cw-var-ravelry; }
+.#{$cw-css-prefix}-eercast:before { content: $cw-var-eercast; }
+.#{$cw-css-prefix}-microchip:before { content: $cw-var-microchip; }
+.#{$cw-css-prefix}-snowflake-o:before { content: $cw-var-snowflake-o; }
+.#{$cw-css-prefix}-superpowers:before { content: $cw-var-superpowers; }
+.#{$cw-css-prefix}-wpexplorer:before { content: $cw-var-wpexplorer; }
+.#{$cw-css-prefix}-meetup:before { content: $cw-var-meetup; }

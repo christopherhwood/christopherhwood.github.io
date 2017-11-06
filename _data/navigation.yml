@@ -1,7 +1,11 @@
 # main links
 main:
+  - title: "Projects"
+    url: /projects/
+  - title: "Resume"
+    url: /resume/
   - title: "About Me"
-    url: http://www.christopherhwood.com/blog/about-me
+    url: /about-me/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

@@ -1,0 +1,12 @@
+
+# Newspapers vs. Free Market
+
+I woke up this morning to a story on Medium from Kristi Culpepper. It is linked here, but in summary it details the growing lack of journalistic quality due to the Internet. While Ms. Culpepper makes a good point that a growing amount of journalism is poorly done and poorly sourced, she fails to mention that the overall amount of journalism and news content being produced has also grown with the advent of the Internet. While today we have Zero Hedge, a Twitter account she picks out for being especially bad, in the days of print we had the National Enquirer and still have the NY Post. It always has and always will be up to the reader’s discretion as to what articles he or she decides to read. This is the beauty of the freedom of the press.
+
+Her article was inspired by a [much longer piece](http://www.brookings.edu/research/essays/2014/bad-news?cid=00900006020080101US0001-2#) written by Robert G. Kaiser of the Washington Post. Mr. Kaiser’s work offers a much more perplexing issue: the important role of America news’ old guard as a government watchdog. Today’s flat media structure, in which anyone can publish online and gather an audience, opens us to many previously marginalized viewpoints and educates the populace for next to nothing. While this is a spectacular phenomenon, it does limit profits of large news organizations; profits that Mr. Kaiser argues allow these large outlets to pursue groundbreaking stories.
+
+I have little doubt that today’s emerging media titans – Twitter, Politico, Vice, Vox, BuzzFeed, Reddit, etc. will be able to fill this gap. After all, a single man, not a large news corporation, wrote one of the most influential pieces of journalism in the history of the United States – Common Sense by Thomas Paine. He distributed to 500,000 people when the primary form of transportation was horseback. Furthermore, we see countries like China and Iran that do not have freedom of the press continue to censor their Internet and build firewalls to keep out western media like Twitter, Facebook, and Google. To me it is clear that our society has made a tremendous advancement in the adoption of these new technological media outlets. They have removed power of the press from the hands of a few, and shared it with billions, and in doing so have given potentially given millions of Thomas Paines ink and a quill.
+
+Follow me on Twitter: [@c_h_wood](https://twitter.com/C_H_Wood)
+
+Check out more posts like this at [christopherhwood.com](http://christopherhwood.com)

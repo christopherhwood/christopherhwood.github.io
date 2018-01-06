@@ -1,8 +1,3 @@
-
-# A Closer Look at China’s Massive iOS Hack
-
-
-
 If you follow China or Apple, then you by now have certainly heard of the XCode Ghost hack that took place in mid September. According to Caijing Magazine, what is now considered to have likely been a group hacking effort has resulted in over one hundred million hacked iPhones, located mostly in China. The hackers infiltrated some of China’s most popular apps including Wechat, Didi Dache, and Netease. Besides the scale of the attack and the fact that it took place on the previously impenetrable iOS system, the two most interesting parts of the story are the method behind the attack and the motive.
 
 As most people know, due to the Chinese government’s attempts to control domestic information flows, many foreign websites like Facebook and Twitter are blocked. However, even those which are not blocked, like Apple’s developer website and the App Store load slower in China. The speed is such a problem that there are many websites existing within the Great Firewall which host material from outside. The most significant amount of register material is software development code, since GitHub and other open source code sharing environments are prohibitively slow.
@@ -18,5 +13,3 @@ The second interesting piece of the story, as reported by Caijing Magazine is th
 It is ironic that the Chinese government’s goal of protecting domestic stability by limiting outside opinions has actually resulted in what may be the largest cell phone hack in history, putting close to one hundred million Chinese people’s private information at risk. This irony is all the more curious when considered alongside the hackers’ motive, or lack thereof. Could it be that the hack is one of the world’s first instances of large scale digital government protest? Could the hackers’ motive actually be only to prove that digital protectionist policies are also open to unintended consequences?
 
 Follow me on Twitter: [@c_h_wood](https://twitter.com/C_H_Wood)
-
-Check out more posts like this at [christopherhwood.com](http://christopherhwood.com)

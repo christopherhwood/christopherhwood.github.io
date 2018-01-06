@@ -1,8 +1,3 @@
-
-# Just Be Glad You Aren’t in China
-
-Just Be Glad You Aren’t in China
-
 ### China’s Graduates Suffer Worse Employment Odds than US Graduates
 
 China’s college graduates are quickly coming to a joint realization. This world is not the same as when their parents were their age. Employment odds are dim for both high school and college graduates, and while this problem is also becoming more prevalent in the US, it is far worse in China.
@@ -26,5 +21,3 @@ This could present a big problem for China in years to come, as a growing unempl
 Source: [http://business.sohu.com/s2013/picture-talk-80/](http://business.sohu.com/s2013/picture-talk-80/)
 
 Follow me on Twitter [@c_h_wood](https://twitter.com/C_H_Wood)
-
-Follow my blog: [bamboosoapbox.com](http://bamboosoapbox.com/)

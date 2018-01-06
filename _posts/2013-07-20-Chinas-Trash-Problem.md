@@ -1,8 +1,3 @@
-
-# China’s Trash Problem
-
-China’s Trash Problem
-
 ### It’s not just for Beijing and Shanghai anymore
 
 China is facing many problems as a result of a developing economy. One problem is the pace of urbanization. With the [Chinese hukou system](http://en.wikipedia.org/wiki/Hukou_system#Household_registration_in_China) currently in place, many rural impoverished workers migrate to cities, such as Beijing and Shanghai, in search of labor intensive, low wage job opportunities. The Chinese hukou system is designed to limit these workers from migrating to arguably already overpopulated cities by limiting their access to health care and other social benefits, as well as their children’s access to the public education system in these cities. While this hukou system receives the [brunt of foreign criticism](http://www.globaltimes.cn/content/794872.shtml#.UepMiGTwIRw), it does work to demotivate overpopulation by migrant workers. China’s population problem is often accompanied by issues already prevalent in major Chinese cities, such as China’s current and growing garbage problem.
@@ -22,5 +17,3 @@ The Chinese language websites I used to help write this post are:
 [http://green.sohu.com/20130718/n381929889.shtml](http://green.sohu.com/20130718/n381929889.shtml)
 
 [http://green.sohu.com/20130719/n382045197.shtml](http://green.sohu.com/20130719/n382045197.shtml)
-
-Read more at: [christopherhwood.com](http://christopherhwood.com)

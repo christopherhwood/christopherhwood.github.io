@@ -1,8 +1,3 @@
-
-# Why Don’t We Have Customized UI?
-
-
-
 I like to think of customization through the lens of clothing. Presumably there was originally no clothing, but each of our bodies was “custom built” if you will. Then we decided to make clothing. All of this was done by hand and almost certainly no two pieces were the same. This continued on until the industrial revolution, when it was found that more people can enjoy clothing and have more free time if we make it all pretty much the same.
 
 Now we have come to the next big technological era. New technologies like 3D printing and artificial intelligence are rapidly lowering the costs of creating customized products. This is already happening with [some niche products that are being 3D printed](http://www.sculpteo.com/blog/2015/08/05/3d-printing-uses-mass-customization/), but increased customization is an underlying trend that will leave a massive impact on design across all industries in the coming century.
@@ -22,5 +17,3 @@ Even with this content curation, the way in which you and everyone else uses the
 It takes a new way of thinking about UI to bring about these changes, but it’s nothing impossible. The data on user habits is already being collected. Machine learning algorithms already exist to help determine which features should be presented and where. [Spotify](undefined) has shown that with some planning, [UI can be managed from the backend servers](https://www.facebook.com/atscaleevents/videos/1708052886134475/?utm_campaign=This%2BWeek%2Bin%2BSwift&utm_medium=email&utm_source=This_Week_in_Swift_85). All that’s left is for us to connect the dots, put in a little elbow grease, and start delivering better experiences to our users.
 
 Follow me on Twitter: [@c_h_wood](https://twitter.com/C_H_Wood)
-
-Check out more posts like this at [christopherhwood.com](http://christopherhwood.com)

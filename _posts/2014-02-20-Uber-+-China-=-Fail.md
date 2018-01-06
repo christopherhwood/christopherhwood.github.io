@@ -1,7 +1,4 @@
-
-# Uber + China = Fail
-
-Why Uber’s market entry strategy was doomed before it began
+### Why Uber’s market entry strategy was doomed before it began
 
 If you’ve followed Uber’s rise from Silicon Valley to what is now essentially world-wide, you’ve certainly noticed a few bumps in the road (forgive the pun).
 
@@ -31,5 +28,3 @@ Whereas Uber has thus far been able to bully American politicians into accepting
 *Uber refers to their drivers in Shanghai as partners. From examining the application process, it appears that a taxi company owner (with an already established company, hence the proof of incorporation) can apply himself, then set his entire company up with Uber. This should be of slight concern for their Shanghai user base as Uber, and possibly the government, does not know the individual drivers’ backgrounds.
 
 Follow me on Twitter: [@c_h_wood](https://twitter.com/C_H_Wood)
-
-Check out more posts like this at [christopherhwood.com](https://twitter.com/C_H_Wood)

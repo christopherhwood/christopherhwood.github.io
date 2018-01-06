@@ -1,8 +1,3 @@
-
-# BuzzFeed Is Only The Beginning
-
-
-
 ### BuzzFeed just raised $50 million
 
 and is valued at $850 million. Andreessen Horowitz, on of the most respected VC firms made the investment and has predicted a changing media landscape that [could grow 10x-100x](http://a16z.com/2014/02/25/future-of-news-business/) in the next five years.
@@ -38,5 +33,3 @@ The Argument for BuzzFeed Disrupting the News Media Industry
 [http://valleywag.gawker.com/here-s-what-buzzfeed-s-new-investors-really-think-about-1619389022](http://valleywag.gawker.com/here-s-what-buzzfeed-s-new-investors-really-think-about-1619389022)
 
 Follow me on Twitter: [@c_h_wood](https://twitter.com/C_H_Wood)
-
-Check out more posts like this at [christopherhwood.com](http://christopherhwood.com)

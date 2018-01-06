@@ -1,8 +1,4 @@
-
-# A Decline in America’s Hegemony?
-
-Why the US no longer gets respect abroad
-*nate_lawson | Flickr*
+### Why the US no longer gets respect abroad
 
 It’s a topic that’s been discussed heavily in academic settings for years. However, I believe that we are just beginning to see a serious decline in the international reputation of the United States. Looking at recent statements from the Middle East, actions in East Asia, and troubles at home, it seems more clear than ever that as a nation we are coming to a crossroads.
 
@@ -29,5 +25,3 @@ Regardless of China’s motives, it is apparent that this is quickly becoming th
 In order to exude this confidence, soothe our allies, and temper the ambitions of potential opposition, our government must first unite at home. It is nearly impossible to give an air of confidence abroad when government officials are locked in a dance that threatens to ruin our own economy. If the United States wants to maintain its standing abroad, it must first take care of matters at home. Only then can we focus our attention to our much needed success in a pivot to Asia and protecting interests in the Middle East.
 
 Follow me on Twitter [@c_h_wood](https://twitter.com/C_H_Wood)
-
-Check out more posts like this at [christopherhwood.com](http://christopherhwood.com)

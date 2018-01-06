@@ -1,8 +1,3 @@
-
-# A More Perfect Polling System
-
-Welcome to your personal polling booth.
-
 One of the biggest issues in American politics today is the unbalanced influence of those with money. In fact, it’s the entire basis of Larry [Lessig](undefined)’s campaign. Part of the reason moneyed individuals can carry such influence is campaign finance, but another is voter apathy. It’s one thing to fight unfair fundraising laws with the nation at your back, but it is another to challenge those who donate piles of cash while the average American won’t travel to the polling booth once a year.
 
 Since we can’t convince more than 3/5 of the US to get out of the house and vote, maybe we can bring the vote to them. 74.4% of US households reported Internet access in 2013, with 73.4% reporting high speed internet access. 64% of Americans own smartphones. There is already worldwide adoption of mobile banking, information sharing, and account validation. Elections should be available for online participation.
@@ -22,5 +17,3 @@ Is it possible to scam the system? Perhaps. [An attempt was made](http://www.tec
 It’s time for the US to promote democracy more broadly at home. The best way to do this is to quite literally put the vote in the hands of the people.
 
 Follow me on Twitter: [@c_h_wood](https://twitter.com/C_H_Wood)
-
-Check out more posts like this at [christopherhwood.com](http://christopherhwood.com)

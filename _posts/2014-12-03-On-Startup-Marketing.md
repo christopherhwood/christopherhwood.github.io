@@ -1,8 +1,3 @@
-
-# On Startup Marketing
-
-On Startup Marketing
-
 ### *Or What I Learned after 2 Months without a User*
 
 If you think that you might be interested in starting anything online, I recommend you read my account below. Contrary to the success stories that you can find posted all over the web, mine is a story of complete failure. Two months, $52, and nothing to show for it. I hope that by sharing my experience I will be able to help others succeed.
@@ -12,7 +7,7 @@ Starting anything is difficult. If it’s just for you, it could be a new diet, 
 I say this because I have experienced the difficulties of starting something for other people — something that I now realize people actually may not want. Two months ago I set out to make something new. I didn’t have a clear idea in mind, but I thought I could change how people read things on their phones. I still think I can, but I don’t know if anyone else believes me.
 
 Two months ago I began working on my idea (called Earlyworm) and I thought I had it all figured out.
-> # “This is such an awesome, kickass idea that everyone will just flock to it. The internet’s a big place, but it’s inevitable that almost everyone will see this product and realize how much of a genius I am for thinking of it. Maybe I’m the next Steve Jobs and this is how I begin getting discovered…”
+> ## “This is such an awesome, kickass idea that everyone will just flock to it. The internet’s a big place, but it’s inevitable that almost everyone will see this product and realize how much of a genius I am for thinking of it. Maybe I’m the next Steve Jobs and this is how I begin getting discovered…”
 
 ![CNN [http://i2.cdn.turner.com/cnn/dam/assets/121003065321-steve-jobs-smiling-story-top.jpg](http://i2.cdn.turner.com/cnn/dam/assets/121003065321-steve-jobs-smiling-story-top.jpg)](https://cdn-images-1.medium.com/max/2000/1*Nunf5jMXBF_D80Vtmxc9zQ.jpeg)*CNN [http://i2.cdn.turner.com/cnn/dam/assets/121003065321-steve-jobs-smiling-story-top.jpg](http://i2.cdn.turner.com/cnn/dam/assets/121003065321-steve-jobs-smiling-story-top.jpg)*
 
@@ -55,5 +50,3 @@ Yesterday I refined my idea further. I decided to first begin with a newsletter 
 In the end, I don’t see this as wasted time or money because I am truly passionate about the idea. When I work on making Twitter ads, infographics, or revamping my website I am overcome with focus happiness. This has been my pastime for the last two months, and although I still have nothing to show for it, I wouldn’t change it for anything.
 
 Follow me on Twitter: [@c_h_wood](https://twitter.com/C_H_Wood)
-
-Check out more posts like this at [christopherhwood.com](http://christopherhwood.com)

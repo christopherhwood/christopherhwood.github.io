@@ -1,7 +1,4 @@
-
-# Fixing the Job Market
-
-Lessons from the Pros
+### Lessons from the Pros
 
 **The current US job market is messed up.**
 
@@ -34,5 +31,3 @@ Resumes, transcripts, cover letters, and interviews would all still have their p
 [Resumes and cover letters are an old, dated, inefficient method](http://www.ere.net/2014/02/20/moneyball-and-recruiting-the-future-of-hiring-or-pie-in-the-sky/). Moneyball has shown us the power of using statistics to evaluate performance rather than traditional, “soft” measures. It’s time that the rest of the world caught up with the world of sports and adopted to the new era of performance evaluation.
 
 Follow me on Twitter: [@c_h_wood](https://twitter.com/C_H_Wood)
-
-Check out more posts like this at [christopherhwood.com](http://christopherhwood.com)

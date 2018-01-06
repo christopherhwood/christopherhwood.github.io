@@ -1,8 +1,3 @@
-
-# China’s Emerging Capitalist Economy
-
-China’s Emerging Capitalist Economy
-
 ### The Reasons Behind, and Future Impacts of China’s Recent Interest Rate Reform in Layman’s Terms
 
 If you have been following China economic news lately, you have probably noticed a massive quantity of articles referencing China’s credit problems, shadow banks, and recently, interest rate deregulation. This year could very well mark a turning point in China’s economic structuring.
@@ -28,5 +23,3 @@ Clearly, China’s interest rate policies have unintentionally spurred many a pr
 China’s slow deregulation of interest rates will inevitably encourage investors to begin investing in banks again. With this will more than likely come a real estate market crash. Because of the mass amounts of investment in real estate, real estate prices are above what many consider the actual market levels to be. As this investment stops, real estate prices will drop, and many Chinese citizens will see their life saving disappear before their eyes. Although these citizens will also begin to see higher salaries from their jobs in the private sector (as wages can now rise due to capital being cheaper), it could take a while for the difference, between what they lost so quickly and their slowly increasing wages, to disappear. This could usher in social instability, and the government needs to be prepared for this in advance, otherwise the [already high number of protests](http://thediplomat.com/2011/12/30/occupy-beijing/) could become higher, and the government’s rule could be on rocky waters. As far as the future and China’s economic and social stability, only time will tell.
 
 Follow me on Twitter: [@c_h_wood](https://twitter.com/C_H_Wood)
-
-Check out more posts like this at [christopherhwood.com](http://christopherhwood.com)

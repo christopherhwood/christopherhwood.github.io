@@ -1,7 +1,4 @@
-
-# The New Look of China’s Shadow-Banking
-
-The Rise of Peer-to-Peer Lending in China
+### The Rise of Peer-to-Peer Lending in China
 
 With government crackdowns on investment trusts and risky lending looming ever nearer, it appears the Chinese government may have more issues to deal with soon.
 
@@ -24,5 +21,3 @@ If anything, these platforms are creating another loophole in the current system
 In the long run, China needs to correct its course on this matter, or it will certainly face a stagnant economy that lacks disruptive startups and small businesses and instead relies on bloated, inefficient state-owned enterprises.
 
 Follow me on Twitter: [@c_h_wood](https://twitter.com/C_H_Wood)
-
-Check out more posts like this at [christopherhwood.com](http://christopherhwood.com)

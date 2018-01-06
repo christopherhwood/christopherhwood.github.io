@@ -1,9 +1,4 @@
-
-# The App Market: An Unsustainable Future
-
-What’s an App Worth?
-
-#8 in Overall Paid Apps Only Equals $302
+### #8 in Overall Paid Apps Only Equals $302
 
 ![](https://cdn-images-1.medium.com/max/2560/1*-6zC6l6h-h89YPd9kJj75g.jpeg)
 
@@ -43,5 +38,3 @@ It’s a weird situation to be sure. Basically there’s a market, but a psychol
 • [This follow up](http://berserkhippo.com/2015/04/conveying-the-cost-of-software/) on how people are reluctant to pay for intangible goods
 
 Follow me on Twitter: [@c_h_wood](https://twitter.com/C_H_Wood)
-
-Check out more posts like this at [christopherhwood.com](http://christopherhwood.com)

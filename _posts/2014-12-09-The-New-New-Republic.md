@@ -1,8 +1,3 @@
-
-# The “New” New Republic
-
-The “New” New Republic
-
 ### The problem is not what Chris Hughes did, but how.
 
 Since Thursday, December 4, The New Republic has embodied the split between Silicon Valley and the world. The disputes between editorial staff and Chris Hughes are still too muddy to discuss. His vision for the magazine as defined in this Washington Post editorial are not. Simply put, there is no reason for a technologically modern publication and intellectually curious journalism to be exclusive.
@@ -16,7 +11,7 @@ Hughes’ new goal was to modernize the magazine without losing its intellectual
 Before continuing to analyze the vision of Chris Hughes, it is necessary to examine the discussion which so many have joined over the weekend — are new age media outlets and honorable media traditions mutually exclusive? It seems many of those who work for the older, well-established media outlets have taken up the gauntlet against the new “BuzzFeed era” of journalism. I don’t blame them, because from the surface so many new age media outlets are just click magnets looking to capitalize on advertising. However, I also share Chris Hughes’ vision for the future of journalism.
 
 This vision destroys the wall between digital outlets and long form journalism. There is nothing that prohibits short form journalism from being impactful. If anything, the challenge of packing the value of a long form piece into a listicle or interactive display is the art of modern journalism.
-> # It is my opinion that the highest goal of journalism has and will always be to spread impactful ideas to the masses.
+> ## It is my opinion that the highest goal of journalism has and will always be to spread impactful ideas to the masses.
 
 Today, long form is not fulfilling this goal. Times change, and we no longer live in the era when people go to Barnes and Noble to purchase the latest magazines. There are fewer and fewer newspaper hawkers crowding our streets. Today, we have Amazon’s Kindle, Twitter and Facebook feeds, and blogs galore. You can dismiss these as new age fads as much as you want, but the truth is indismissable — the way we consume our media has changed.
 
@@ -35,5 +30,3 @@ Today we face a similar dilemma. While popular literacy is not at stake (at leas
 The New Republic boasted a monthly readership of 6 million readers at its peak. BuzzFeed has a monthly readership of over 150 million. Neither is making the social impact that it is capable of, but imagine the result if they were combined.
 
 Follow me on Twitter: [@c_h_wood](https://twitter.com/C_H_Wood)
-
-Check out more posts like this at [christopherhwood.com](http://christopherhwood.com)

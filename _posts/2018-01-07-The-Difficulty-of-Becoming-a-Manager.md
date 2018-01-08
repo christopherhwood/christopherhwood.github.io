@@ -1,8 +1,7 @@
 # The Difficulty of Becoming a Manager
-<div style="text-align:center”>
-![](2018-01-07-The-Difficulty-of-Becoming-a-Manager/climate-kic-350836.jpg)
+
+![](climate-kic-350836.jpg)
 <sup>Photo by [Climate KIC](https://unsplash.com/photos/tCNjNF6FfGk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</sup>
-</div>
 
 The first time anyone becomes a manager she is more than likely going to make this mistake. 
 

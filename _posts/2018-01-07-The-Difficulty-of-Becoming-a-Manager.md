@@ -1,5 +1,3 @@
-# The Difficulty of Becoming a Manager
-
 Nearly every new manager makes the same mistakes.
 
 She’ll try to compete with those whom she’s supposed to be managing and try to continue being the team superstar. She’ll horde the difficult work because others on her team are “not capable” or “mess things up.” She’ll get jealous when others compliment one of her team members’ work, because she should be the one receiving the compliment. And she’ll get stressed beyond belief as she tries to do the entire team’s work by herself because “she’s the one who’s held responsible now.”

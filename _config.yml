@@ -12,7 +12,7 @@ locale                   : "en"
 title                    : "Chris Wood"
 title_separator          : "-"
 name                     : "Chris Wood"
-description              : "iOS Developer developer at DayDayCook (日日煮), technologist, researcher of human computer interaction, fan of good design, lover of good code."
+description              : ""
 url                      : "https://www.christopherhwood.com"
 baseurl                  :
 repository               : "christopherhwood/christopherhwood.github.io"
@@ -68,7 +68,7 @@ og_image                 : "./assets/images/teaser.png"
 social:
   type                   : "Person"
   name                   : "Christopher Wood"
-  links: ["https://twitter.com/C_H_Wood", "https://www.linkedin.com/in/christopherhwood/", "https://www.instagram.com/c_h_wood/", "https://www.facebook.com/chris.wood.37604303"] # An array of links to social media profiles
+  links: ["https://twitter.com/C_H_Wood", "https://www.linkedin.com/in/christopherhwood/"] # An array of links to social media profiles
 
 # Analytics
 analytics:
@@ -81,8 +81,8 @@ analytics:
 author:
   name             : "Chris Wood"
   avatar           : "./assets/images/bio-pic.png"
-  bio              : "iOS Dev at DayDayCook 日日煮"
-  location         : "Shanghai"
+  bio              : "Software Engineer"
+  location         : "San Francisco"
   email            : "christopherhwood@gmail.com"
   uri              :
   bitbucket        :

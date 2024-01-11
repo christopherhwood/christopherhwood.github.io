@@ -36,7 +36,9 @@ Within each project, each individual contributors break the major tasks into a s
 To me, this looks something like LLMs with large context windows figuring out general strategy, LLMs with a little more focused dataset and maybe slightly smaller context windows putting together a sub-strategy, and then progressively focused LLMs breaking these into projects, tasks, and subtasks until finally the tasks are converted into the final products - code, emails, social media posts, marketing materials, etc.
 
 While completely automated “AI agents” are appealing in a technical and magical sense, I highly doubt we are able to create such sophisticated pieces of machinery from non-deterministic LLMs. For the time being, I still see the best AI products being those that have a human-in-the-loop to course correct and guide the AI.
----------------
+
+-----------------------
+
 LLM-related reading from today, focused on how we get bigger context windows without needing to make new models. I don’t understand all of the math but with some work you can grasp the concepts and implications for people building on top of LLMs:
 
 Tricks you can play to expand the context window of an LLM:

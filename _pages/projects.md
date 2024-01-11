@@ -6,6 +6,8 @@ header:
   image: /assets/images/2017-06-06.png
 ---
 
+This page is no longer being updated. For more recent projects check out [portfolio.christopherhwood.com](portfolio.christopherhwood.com)
+
 # DayDayCook 日日煮  
 
 DayDayCook is one of the most popular cooking apps in the Asian Pacific (APAC) region. The app was named to the "Top 10 Apps of 2016" list by the Hong Kong App Store. The application spans the full range of Apple devices, from iPhone and iPad to Apple TV, Apple Watch. The app also comes packaged with an iMessage application extension.   

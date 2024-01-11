@@ -1,5 +1,4 @@
-# RAG vs Big Context Windows
-_Is smaller, more focused RAG still the way to win at scale?_
+# Is smaller, more focused RAG still the way to win at scale?
 
 At this point, most people who have been following generative AI discussions have probably heard of RAG (retrieval-augmented generation). For those who aren’t familiar, briefly it means you pull data from elsewhere and feed it through the LLM to get your final result. This is what we built at Earlyworm, a RAG system for turning online news and blogs into language learning material. 
 

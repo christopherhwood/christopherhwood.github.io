@@ -12,5 +12,3 @@ In 2018, I moved to San Francisco to join Meta and work on AR/VR development. Si
 I have been studying neural networks and machine learning in my free time since 2015 and have recently had the opportunity to apply them in my language learning application Earlyworm. The application utilizes categorization, named entity recognition, clustering, summarization, recommendation, and vector search over embeddings. I made extensive use of LLMs and machine learning libraries, including fine-tuning several text-davinci-003 models and building my own clustering, summarization, and recommendation systems.
 
 Recently I’ve been obsessed with using LLMs to fully automate code-writing. I’m inspired by work like Trace and tldraw but firmly believe the entire development process can be automated, unlocking a new role for software engineers that is freed from the labor of drafting code and more focused on the critical thinking around which features to add and how to improve existing systems.
-
-If any of this excites you, use the button below to send me an email! I’d love to hear from you!

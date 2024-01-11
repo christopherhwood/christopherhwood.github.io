@@ -1,4 +1,4 @@
-# Is smaller, more focused RAG still the way to win at scale?
+## Is smaller, more focused RAG still the way to win at scale?
 
 At this point, most people who have been following generative AI discussions have probably heard of RAG (retrieval-augmented generation). For those who aren’t familiar, briefly it means you pull data from elsewhere and feed it through the LLM to get your final result. This is what we built at Earlyworm, a RAG system for turning online news and blogs into language learning material. 
 
@@ -8,13 +8,13 @@ While larger context or managed RAG might work for the lowing hanging fruit appl
 
 AI apps have the following 4 distinguishing elements:
 
-Proprietary data (in training set and available for inserting to context)
+- Proprietary data (in training set and available for inserting to context)
 
-Exactness of response
+- Exactness of response
 
-Cost
+- Cost
 
-Speed
+- Speed
 
 Most startups aren’t going to have proprietary data, so that limits advantages to exactness of response, cost, and speed. In practically all of these, larger context windows and managed RAG lose out. 
 

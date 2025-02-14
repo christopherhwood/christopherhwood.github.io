@@ -13,4 +13,4 @@ I have been studying neural networks and machine learning in my free time since 
 
 Recently I’ve been obsessed with using LLMs to fully automate code-writing. I’m inspired by work like tldraw but firmly believe the best place for LLMs to assist developers is in the closed-loop operational work around fixing bugs and maintaining code, whereas humans are much better suited for the creative pursuit of building new features and exploring the unknown.
 
-In January, 2025 I founded (https://qckfx.com)[https://qckfx.com] to automate the bug-fixing process. 
+In January, 2025 I founded https://qckfx.com to automate the bug-fixing process. 

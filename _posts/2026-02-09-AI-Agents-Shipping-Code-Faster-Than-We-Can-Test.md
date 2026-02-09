@@ -1,4 +1,6 @@
-# AI Agents are shipping code faster than we can test
+---
+title: "AI Agents are shipping code faster than we can test"
+---
 
 Something shifted in January. Teams came back from the holidays and started using agents for real work. Claude Code, Cursor, Codex. Assigning tickets, letting them run in the background, reviewing the PR when it's done.
 
